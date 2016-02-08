@@ -19,6 +19,41 @@ h2{
     line-height: auto;
     color: #000000;
 }
+/*COMMON*/
+.container{
+    width: 940px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+/*HEADER*/
+.main-header{
+   min-height: 71px;
+}
+.main-menu{
+    min-height: 69px;
+    width: 780px;
+    float: left; 
+}
+.user-block{
+    float:right;
+    min-height: 71px;
+    width: 140px;
+}
+.main-logo{
+    float: left;
+    width: 111px;
+}
+/*MAIN*/
+.main-content{
+    width: 960px;
+    padding: 55px 120px 50px 120px;
+    margin: 0 auto;
+}
 legend{
     font-family: PTSans Narrow;
     font-weight: bold;
@@ -26,3 +61,66 @@ legend{
     line-height: auto;
     color: #000000;
 }
+.main-title{
+    min-height: 65px;
+    margin-bottom: 60px;
+}
+.column-left{
+    float: left;
+    min-height: 571px;
+    width: 220px;
+}
+.column-right{
+    float: right;
+    min-height: 681px;
+    width: 700px;
+}
+.item-gallery{
+    float: left;
+    width: 460px;
+    min-height: 670px;
+}
+.item-content{
+    float: right;
+    width: 390px;
+    min-height: 530px;
+}
+.item-available{
+    min-height: 12px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+.item-description{
+    min-height: 135px;
+    margin-bottom: 43px;
+}
+.item-price{
+    min-height: 43px;
+    margin-bottom: 68px;
+}
+.item-stuff{
+    min-height: 170px;
+}
+/*FOOTER*/
+.main-footer{
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.footer-contacts{
+    float: left;
+    min-height: 90px;
+    width: 320px;
+    margin-right: 60px;
+}
+.footer-social{
+    float: left;
+    min-height: 90px;
+    width: 240px;
+}
+.footer-copyright{
+    float: right;
+    min-height: 90px;
+    width: 160px; 
+}
+
+

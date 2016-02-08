@@ -7,12 +7,10 @@
 </head>
 <body>
     <header class="main-header">
-        <div class="container">
-            <div class="logo">
-                <a href="#"><img src="img/header_logo.png" alt="логотип Барбершоп" title="логотип Барбершоп" width="111" height="24"></a>
-            </div>
-            <nav class="navigation">
-              <ul>
+        <div class="container clearfix">  
+            <a href="#" class="main-logo"><img src="img/header_logo.png" alt="логотип Барбершоп" title="логотип Барбершоп" width="111" height="24"></a>
+            <nav class="main-menu">
+                <ul>
                 <li><a href="#">Информация</a></li>
                 <li><a href="#">Новости</a></li>
                 <li><a href="#">Прайс-лист</a></li>
@@ -39,18 +37,22 @@
                 <form class="column-left">
                     <section class="producers">
                         <legend>Производители</legend>
-                        <label><input type="checkbox" checked>Baxter of California</label>
-                        <label><input type="checkbox">Mr Natty</label>
-                        <label><input type="checkbox" checked>Suavecito</label>
-                        <label><input type="checkbox">Malin+Goetz</label>
-                        <label><input type="checkbox">Murrays</label>
-                        <label><input type="checkbox" checked>American Crew</label>
+                            <ul>
+                                <li><label><input type="checkbox" checked>Baxter of California</label></li>
+                                <li><label><input type="checkbox">Mr Natty</label></li>
+                                <li><label><input type="checkbox" checked>Suavecito</label></li>
+                                <li><label><input type="checkbox">Malin+Goetz</label></li>
+                                <li><label><input type="checkbox">Murrays</label></li>
+                                <li><label><input type="checkbox" checked>American Crew</label></li>
+                            </ul>
                     </section>
                     <section class="item-groups">
                         <legend>Группы товаров</legend>
-                        <label><input type="radio" name="shave">Бритвенные принадлежности</label>
-                        <label><input type="radio" name="care">Средства для ухода</label>
-                        <label><input type="radio" name="accessories">Аксессуары</label>
+                        <ul>
+                            <li><label><input type="radio" name="shave">Бритвенные принадлежности</label></li>
+                            <li><label><input type="radio" name="care">Средства для ухода</label></li>
+                            <li><label><input type="radio" name="accessories">Аксессуары</label></li>
+                        </ul>
                     </section>
                     <button class="btn apply-filter">Показать</button>
                 </form>
@@ -129,7 +131,7 @@
         </div>
     </main>
     <footer class="main-footer">
-        <div class="container">
+        <div class="container clearfix">
             <div class="footer-contacts">
                 <p>Барбершоп «Бородинский»<br>
                 Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
